@@ -18,17 +18,17 @@
 
     <main>
         <!-- Banner -->
-        <div class="flex h-[678px] [&>*]:w-[50%] justify-center border" style="padding-left: 5em; padding-right:5em;">
+        <div class="flex h-[678px] [&>*]:w-[50%] justify-center bg-[#EEEEEE]" style="padding-left: 5em; padding-right:5em;">
             <div style="padding-top: 10em; padding-left:5em;">
                 <h1 class="text-[51px] outfit-extralight">GoPro hero9 Black</h1>
                 <p class="text-[21px] outfit-extralight">Limited stocks available. Grab it now!</p>
                 <button class="h-[56px] w-[249px] bg-[#FF6543] rounded-full outfit-light" style="margin-top: 2em;"><a href="#" class="text-[#FFFFFF]">Shop collection</a></button>
             </div>
-            <div class="rounded-[50em] bg-[#EEEEEE]"><img src="./images/gopro.svg" alt="GoPro" height="612.2" width="596.4"></div>
+            <div class="rounded-[50em] bg-[#DBDBDB]" style="padding-top: 5em; padding-left:2em;"><img src="./images/gopro.svg" alt="GoPro" height="612.2" width="596.4"></div>
         </div>
 
         <!-- Tags -->
-        <div class="flex [&>*]:grow gap-5" style="margin-top:2em; padding-left:2em; padding-right: 2em;">
+        <div class="flex [&>*]:grow gap-5" style="margin-top:2em; margin-left:190px; margin-right: 190px;">
             <div>
                 <img src="./images/cartorenge.svg" class="inline" alt="cart orenge"> <span> Free delivery</span>
                 <p style="margin-left: 2.5em;">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
@@ -48,36 +48,40 @@
         </div>
 
         <!-- Categories -->
-        <div>
-            <h1>Categories</h1>
-            <div>
-                <img src="./images/iphone.svg" alt="Iphone cover">
-                <p>Phones</p>
-            </div>
-            <div>
-                <img src="./images/playstation.svg" alt="PlayStations">
-                <p>PlayStation</p>
-            </div>
-            <div>
-                <img src="./images/watch.svg" alt="Hand watch">
-                <p>Digital Watches</p>
-            </div>
-            <div>
-                <img src="./images/joysticks.svg" alt="Controler">
-                <p>Joysticks</p>
-            </div>
-            <div>
-                <img src="./images/airpods.svg" alt="Airpods">
-                <p>EarPods</p>
-            </div>
-            <div>
-                <img src="./images/laptop.svg" alt="Laptop">
-                <p>Laptops</p>
+        <div style="margin-top: 5em; margin-left:108px; margin-right:108px;">
+            <h1 class="text-[30px] flex text-[#272727] outfit-extralight" style="margin-bottom: 39px;">Categories <span class="text-[#D0D0D0]">///////////////////////////////////////////////////////////////////////////////////////////////////</span></h1>
+            <div class="flex gap-[20px] grow [&>*]:border [&>*]:border-[#E0E0E0] [&>*]:h-[296px] [&>*]:w-[240px] [&>*]:hover:drop-shadow-xl/50">
+                <div class="flex flex-col justify-center items-center text-center rounded-[5px]">
+                    <img src="./images/iphone.svg" class="h-[195px] w-[172px]" alt="Iphone cover">
+                    <p>Phones</p>
+                </div>
+                <div class="flex flex-col justify-center items-center text-center rounded-[5px]">
+                    <img src="./images/playstation.svg" class="h-[195px] w-[172px]" alt="PlayStations">
+                    <p>PlayStation</p>
+                </div>
+                <div class="flex flex-col justify-center items-center text-center rounded-[5px]">
+                    <img src="./images/watch.svg" class="h-[195px] w-[172px]" alt="Hand watch">
+                    <p>Digital Watches</p>
+                </div>
+                <div class="flex flex-col justify-center items-center text-center rounded-[5px]">
+                    <img src="./images/joysticks.svg" class="h-[195px] w-[172px]" alt="Controler">
+                    <p>Joysticks</p>
+                </div>
+                <div class="flex flex-col justify-center items-center text-center rounded-[5px]">
+                    <img src="./images/airpods.svg" class="h-[195px] w-[172px]" alt="Airpods">
+                    <p>EarPods</p>
+                </div>
+                <div class="flex flex-col justify-center items-center text-center rounded-[5px]">
+                    <img src="./images/laptop.svg" class="h-[195px] w-[172px]" alt="Laptop">
+                    <p>Laptops</p>
+                </div>
             </div>
         </div>
 
-        <!-- Best selling items -->
-        <div>
+        <!-- Best selling items -->'
+         <div class="border" style="margin-top: 140px; margin-left:108px; margin-right:108px;">
+            <h1>BEST SELLING ITEMS</h1>
+        <div class="border">
             <div>
                 <img src="./images/ipad.svg" alt="Ipad Cover">
                 <p>
@@ -113,6 +117,7 @@
                     <span>$400</span>
                 </p>
             </div>
+        </div>
         </div>
         <!-- Counter -->
         <div>
