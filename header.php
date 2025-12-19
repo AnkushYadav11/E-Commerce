@@ -11,33 +11,37 @@
    </head>
 
 <body>
-    <div class="border-b-gray-300 [&>*]:border [&>*]:border-gray-300 h-[45px] flex justify-evenly content-center">
-        <span class="grow text-center d-flex justify-content-center ">
+    <div class="border-b-gray-300 [&>*]:border [&>*]:border-gray-300 h-[45px] flex justify-evenly">
+        <span class="grow flex justify-center items-center">
             <p class="outfit-extralight">Need help? Call us 11 22 333 444 55</p>
         </span>
-        <span class="grow text-center ">
+        <span class="grow flex justify-center items-center">
             <p class="outfit-extralight">Summer sale discount of 60% off! <u>Shop Now</u></p>
         </span class="grow">
-        <span class="grow text-center ">
+        <span class="grow flex justify-center items-center">
             <p class="outfit-extralight">2-3 business days delivery & free returns</p>
         </span>
     </div>
-    <div class="flex justify-between p-5">
-        <h1 class="">SHOPLITE</h1>
+
+    <!-- Second Navbar -->
+    <div class="h-[69px] flex justify-evenly items-center gap-[12em]">
+        <h1 class="text-[31px] outfit-medium">SHOP <span class="text-[31px] outfit-thin">LITE</span></h1>
         <div class="flex gap-[20px]">
-            <a href="#">HOME</a>
-            <a href="#"> ABOUT </a>
-            <a href="#">SHOP</a>
-            <a href="#">BLOGS</a>
-            <a href="#">PAGES</a>
-            <a href="#">CONTACT</a>
+            <a class="text-[16px] outfit-light" href="./index.php">HOME</a>
+            <a class="text-[16px] outfit-light" href="./about.php"> ABOUT </a>
+            <a class="text-[16px] outfit-light" href="#">SHOP</a>
+            <a class="text-[16px] outfit-light" href="#">BLOGS</a>
+            <a class="text-[16px] outfit-light" href="#">PAGES</a>
+            <a class="text-[16px] outfit-light" href="#">CONTACT</a>
         </div>
-        <div class="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+        <div class="flex [&>*]:size-5 gap-5">
+            <img src="./images/search.svg" alt="Search">
+            <img src="./images/profile.svg" alt="Profile">
+            <img src="./images/favourite.svg" alt="favourite">
+            <img src="./images/cart.svg" alt="Cart">
         </div>
     </div>
-   </body>
+   
+</body>
 
 </html>
