@@ -7,69 +7,43 @@
     <meta
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="stylesheet" href="./styles/index.css">
-    <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./styles/fonts.css">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
     <header>
-        <div>
-            <p>Need help? Call us 112233344455</p>
-            <p>Summer sale discount off 60% off! Shop Now</p>
-            <p>2-3 business days delivery & free returns</p>
-        </div>
-        <div>
-            <p class="outfit-medium">Shop <span>Lite</span></p>
-            <ul>
-                <li>HOME</li>
-                <li>ABOUT</li>
-                <li>SHOP</li>
-                <li>BLOGS</li>
-                <li>PAGES</li>
-                <li>CONTACT</li>
-            </ul>
-            <ul>
-                <li><img src="./images/search.svg" alt="search"></li>
-                <li><img src="./images/profile.svg" alt="Profile"></li>
-                <li><img src="./images/favourite.svg" alt="like"></li>
-                <li><img src="./images/cart.svg" alt="cart"></li>
-            </ul>
-        </div>
+      <?php include './header.php' ?>
     </header>
 
     <main>
-
         <!-- Banner -->
-        <div>
-            <div>
-                <h1>GoPro hero9 Black</h1>
-                <p>Limited stocks available. Grab it now!</p>
-                <a href="#">Shop collection</a>
+        <div class="flex h-[678px] [&>*]:w-[50%] justify-center border" style="padding-left: 5em; padding-right:5em;">
+            <div style="padding-top: 10em; padding-left:5em;">
+                <h1 class="text-[51px] outfit-extralight">GoPro hero9 Black</h1>
+                <p class="text-[21px] outfit-extralight">Limited stocks available. Grab it now!</p>
+                <button class="h-[56px] w-[249px] bg-[#FF6543] rounded-full outfit-light" style="margin-top: 2em;"><a href="#" class="text-[#FFFFFF]">Shop collection</a></button>
             </div>
-            <div><img src="./images/gopro.svg" alt="GoPro"></div>
+            <div class="rounded-[50em] bg-[#EEEEEE]"><img src="./images/gopro.svg" alt="GoPro" height="612.2" width="596.4"></div>
         </div>
 
         <!-- Tags -->
-        <div>
+        <div class="flex [&>*]:grow gap-5" style="margin-top:2em; padding-left:2em; padding-right: 2em;"> 
             <div>
-                <img src="./images/cartorenge.svg" alt="cart orenge"> <span>Free delivery</span>
-                <p>Consectetur adipi elit lorem ipsum dolor sit amet.</p>
+                <img src="./images/cartorenge.svg" class="inline" alt="cart orenge"> <span> Free delivery</span>
+                <p style="margin-left: 2.5em;">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
             </div>
             <div>
-                <img src="./images/troffy.svg" alt="Troffy"><span>Quality guarantee</span>
-                <p>Dolor sit amet orem ipsu mcons ectetur adipi elit.</p>
+                <img src="./images/troffy.svg" alt="Troffy" class="inline"><span> Quality guarantee</span>
+                <p style="margin-left: 2.5em;">Dolor sit amet orem ipsu mcons ectetur adipi elit.</p>
             </div>
             <div>
-                <img src="./images/tag.svg" alt="Tag"><span>Daily offers</span>
-                <p>Amet consectetur adipi elit loreme ipsum dolor sit.</p>
+                <img src="./images/tag.svg" alt="Tag" class="inline"><span> Daily offers</span>
+                <p style="margin-left: 2.5em;">Amet consectetur adipi elit loreme ipsum dolor sit.</p>
             </div>
             <div>
-                <img src="./images/comment.svg" alt="Comment"><span>100% secure payment</span>
-                <p>Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
+                <img src="./images/comment.svg" alt="Comment" class="inline"><span> 100% secure payment</span>
+                <p style="margin-left: 2.5em;">Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
             </div>
         </div>
 
@@ -148,23 +122,161 @@
                 <a href="#">Shop collection</a>
             </div>
         </div>
+
         <!-- items card -->
+        <div>
+            <div>
+                <h1>FEATURED</h1>
+                <span>////////////////////////</span>
+                <!-- featured items 1 -->
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        <span>
+                            $500
+                        </span>
+                    </p>
+                </div>
+
+                <!-- featured items 2 -->
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        <span>
+                            $500
+                        </span>
+                    </p>
+                </div>
+
+                <!-- featured items 3 -->
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        <span>
+                            $500
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- latest items -->
+            <div>
+                <h1>Latest items</h1>
+                <span>////////////////////////</span>
+                <!-- letest items 1 -->
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        <span>
+                            $500
+                        </span>
+                    </p>
+                </div>
+                <!-- letest items 2 -->
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        <span>
+                            $500
+                        </span>
+                    </p>
+                </div>
+                <!-- letest items 3 -->
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        <span>
+                            $500
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <!-- best reviewed -->
+            <div>
+                <h1>BEST REVIEWED</h1>
+                <span>////////////////////////</span>
+                <!-- best reviewed 1 -->
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        <span>
+                            $500
+                        </span>
+                    </p>
+                </div>
+                <!-- best reviewed 2 -->
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        <span>
+                            $500
+                        </span>
+                    </p>
+                </div>
+                <!-- best reviewed 3 -->
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        <span>
+                            $500
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- On sale -->
+            <div>
+                <h1>ON SALE</h1>
+                <span>////////////////////////</span>
+                <!-- On sale 1 -->
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        <span>
+                            $500
+                        </span>
+                    </p>
+                </div>
+                <!-- On sale 2 -->
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        <span>
+                            $500
+                        </span>
+                    </p>
+                </div>
+                <!-- On sale 3 -->
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        <span>
+                            $500
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Customers reviews -->
          <div>
+            <h1>Customers reviews <span>/////////////////////////////////////////////////////////</span></h1>
             <div>
-                <h1></h1>
-                
-            </div>
-            <div>
-                <h1></h1>
-                
-            </div>
-            <div>
-                <h1></h1>
-                
-            </div>
-            <div>
-                <h1></h1>
-                
+                <div>
+                    <p></p>
+                    <img src="#" alt="">
+                    <h5>Emma Chamberlin</h5>
+                </div>
+                <div>
+                    <p></p>
+                    <img src="#" alt="">
+                    <h5>Thomas John</h5>
+                </div>
+                <div>
+                    <p></p>
+                    <img src="#" alt="">
+                    <h5>Kevin Bryan</h5>
+                </div>
             </div>
          </div>
 
@@ -174,15 +286,6 @@
 
     </footer>
 
-    <script
-        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
