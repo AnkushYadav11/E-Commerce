@@ -8,12 +8,12 @@
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <link rel="stylesheet" href="./styles/fonts.css">
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
 <body>
     <header>
-      <?php include './header.php' ?>
+        <?php include './header.php' ?>
     </header>
 
     <main>
@@ -28,7 +28,7 @@
         </div>
 
         <!-- Tags -->
-        <div class="flex [&>*]:grow gap-5" style="margin-top:2em; padding-left:2em; padding-right: 2em;"> 
+        <div class="flex [&>*]:grow gap-5" style="margin-top:2em; padding-left:2em; padding-right: 2em;">
             <div>
                 <img src="./images/cartorenge.svg" class="inline" alt="cart orenge"> <span> Free delivery</span>
                 <p style="margin-left: 2.5em;">Consectetur adipi elit lorem ipsum dolor sit amet.</p>
@@ -259,7 +259,7 @@
         </div>
 
         <!-- Customers reviews -->
-         <div>
+        <div>
             <h1>Customers reviews <span>/////////////////////////////////////////////////////////</span></h1>
             <div>
                 <div>
@@ -278,7 +278,7 @@
                     <h5>Kevin Bryan</h5>
                 </div>
             </div>
-         </div>
+        </div>
 
     </main>
 
