@@ -29,7 +29,7 @@
         <div class="flex gap-[20px]">
             <a class="text-[16px] outfit-light" href="./index.php">HOME</a>
             <a class="text-[16px] outfit-light" href="./about.php"> ABOUT </a>
-            <a class="text-[16px] outfit-light" href="#">SHOP</a>
+            <a class="text-[16px] outfit-light" href="./shop.php">SHOP</a>
             <a class="text-[16px] outfit-light" href="#">BLOGS</a>
             <a class="text-[16px] outfit-light" href="#">PAGES</a>
             <a class="text-[16px] outfit-light" href="#">CONTACT</a>
