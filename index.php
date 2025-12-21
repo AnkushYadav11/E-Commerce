@@ -16,7 +16,7 @@
         <?php include './header.php' ?>
     </header>
 
-    <main>
+    <main style="margin-bottom:20px;">
         <!-- Banner -->
         <div class="flex h-[678px] [&>*]:w-[50%] justify-center bg-[#EEEEEE]" style="padding-left: 5em; padding-right:5em;">
             <div style="padding-top: 10em; padding-left:5em;">
@@ -79,212 +79,36 @@
         </div>
 
         <!-- Best selling items -->'
-         <div class="border" style="margin-top: 140px; margin-left:108px; margin-right:108px;">
-            <h1>BEST SELLING ITEMS</h1>
-        <div class="border">
-            <div>
-                <img src="./images/ipad.svg" alt="Ipad Cover">
-                <p>
-                    IPad (9th Gen)
-                    <span>$400</span>
-                </p>
+         <div style="margin-top: 140px; margin-left:108px; margin-right:108px;">
+            <h1 class="text-[30px] text-[#272727] outfit-extralight" style="display:inline;">BEST SELLING ITEMS <span class="text-[#D0D0D0]">////////////////////////////////////////////////////////////////////////////////////</span></h1>
+        <div class="gap-[20px] flex overflow-x-scroll [&>*]:shrink-0 [&>*]:border [&>*]:border-[#D0D0D0] [&>*]:rounded-xl [&>*]:h-[393px] [&>*]:w-[292px]" style="margin-top:39px; margin-left:82px; margin-right:82px;">
+            <div class="flex flex-col justify-center items-center">
+                <img src="./images/ipad.svg" style="height:143px; width:235px;" alt="Ipad Cover">
+                <p class="outfit-light text-[21px]" style="margin-top:70px;">IPad (9th Gen)</p>
+                <p class="outfit-light text-[21px] text-[#FF6543]" style="margin-top: 9px;">$400</p>
             </div>
-            <div>
-                <img src="./images/drone.svg" alt="Drone">
-                <p>
-                    Drone With Camera
-                    <span>$400</span>
-                </p>
+            <div class="flex flex-col justify-center items-center">
+                <img src="./images/drone.svg" style="height:197px; width:197px;" alt="Drone">
+                <p class="outfit-light text-[21px]" style="margin-top:42px;">Drone With Camera</p>
+                <p class="outfit-light text-[21px] text-[#FF6543]" style="margin-top: 9px;">$400</p>
             </div>
-            <div>
-                <img src="./images/watchs.svg" alt="Digital Watche">
-                <p>
-                    Apple Watch (2nd Gen)
-                    <span>$400</span>
-                </p>
+            <div class="flex flex-col justify-center items-center">
+                <img src="./images/watchs.svg" style="height:183px; width:192px;" alt="Digital Watche">
+                <p class="outfit-light text-[21px]" style="margin-top:57px;">Apple Watch (2nd Gen)</p>
+                <p class="outfit-light text-[21px] text-[#FF6543]" style="margin-top: 9px;">$400</p>
             </div>
-            <div>
-                <img src="./images/tv.svg" alt="TV">
-                <p>
-                    Ultra HD TV
-                    <span>$400</span>
-                </p>
+            <div class="flex flex-col justify-center items-center">
+                <img src="./images/tv.svg" style="height:165px; width:239px;" alt="TV">
+                <p class="outfit-light text-[21px]" style="margin-top:62px;">Ultra HD TV</p>
+                <p class="outfit-light text-[21px] text-[#FF6543]" style="margin-top: 9px;">$400</p>
             </div>
-            <div>
-                <img src="./images/speaker.svg" alt="Speaker">
-                <p>
-                    Bluetooth Speaker
-                    <span>$400</span>
-                </p>
+            <div class="flex flex-col justify-center items-center">
+                <img src="./images/speaker.svg" style="height:185px; width:164px;" alt="Speaker">
+                <p class="outfit-light text-[21px]" style="margin-top:50px;">Bluetooth Speaker</p>
+                <p class="outfit-light text-[21px] text-[#FF6543]" style="margin-top: 9px;">$400</p>
             </div>
         </div>
         </div>
-        <!-- Counter -->
-        <div>
-            <div><img src="./images/laptops.svg" alt="Laptop"></div>
-            <div>
-                <h1>30% Discount on apple collection</h1>
-                <a href="#">Shop collection</a>
-            </div>
-        </div>
-
-        <!-- items card -->
-        <div>
-            <div>
-                <h1>FEATURED</h1>
-                <span>////////////////////////</span>
-                <!-- featured items 1 -->
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        <span>
-                            $500
-                        </span>
-                    </p>
-                </div>
-
-                <!-- featured items 2 -->
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        <span>
-                            $500
-                        </span>
-                    </p>
-                </div>
-
-                <!-- featured items 3 -->
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        <span>
-                            $500
-                        </span>
-                    </p>
-                </div>
-            </div>
-
-            <!-- latest items -->
-            <div>
-                <h1>Latest items</h1>
-                <span>////////////////////////</span>
-                <!-- letest items 1 -->
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        <span>
-                            $500
-                        </span>
-                    </p>
-                </div>
-                <!-- letest items 2 -->
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        <span>
-                            $500
-                        </span>
-                    </p>
-                </div>
-                <!-- letest items 3 -->
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        <span>
-                            $500
-                        </span>
-                    </p>
-                </div>
-            </div>
-            <!-- best reviewed -->
-            <div>
-                <h1>BEST REVIEWED</h1>
-                <span>////////////////////////</span>
-                <!-- best reviewed 1 -->
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        <span>
-                            $500
-                        </span>
-                    </p>
-                </div>
-                <!-- best reviewed 2 -->
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        <span>
-                            $500
-                        </span>
-                    </p>
-                </div>
-                <!-- best reviewed 3 -->
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        <span>
-                            $500
-                        </span>
-                    </p>
-                </div>
-            </div>
-
-            <!-- On sale -->
-            <div>
-                <h1>ON SALE</h1>
-                <span>////////////////////////</span>
-                <!-- On sale 1 -->
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        <span>
-                            $500
-                        </span>
-                    </p>
-                </div>
-                <!-- On sale 2 -->
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        <span>
-                            $500
-                        </span>
-                    </p>
-                </div>
-                <!-- On sale 3 -->
-                <div>
-                    <img src="" alt="">
-                    <p>
-                        <span>
-                            $500
-                        </span>
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Customers reviews -->
-        <div>
-            <h1>Customers reviews <span>/////////////////////////////////////////////////////////</span></h1>
-            <div>
-                <div>
-                    <p></p>
-                    <img src="#" alt="">
-                    <h5>Emma Chamberlin</h5>
-                </div>
-                <div>
-                    <p></p>
-                    <img src="#" alt="">
-                    <h5>Thomas John</h5>
-                </div>
-                <div>
-                    <p></p>
-                    <img src="#" alt="">
-                    <h5>Kevin Bryan</h5>
-                </div>
-            </div>
-        </div>
-
     </main>
 
     <footer>
