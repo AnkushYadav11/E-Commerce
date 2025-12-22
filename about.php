@@ -61,13 +61,16 @@
                     Sed vitae metus nibh sit era.Nulla adipiscing pharetra eros at.
                     Nulla adipiscing pharetra pellentesque maecenas odio eros at.Et libero vulputate amet duis erat
                     volutpat vitae eget. Quam libero etiam et in ac at quis. Risus augue curabitur diam senectus congue
-                    velit e. 
+                    velit e.
                 </p>
                 <button class="rounded-full bg-[#FF6543] h-[56px] w-[194px]" style="margin-top: 39px;"> GO TO SHOP </button>
             </div>
         </div>
-
+        
     </div>
+    <?php include "./reviews.php" ?>
+    <?php include "./footer.php" ?>
+    
 </body>
 
 </html>

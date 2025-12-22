@@ -109,9 +109,11 @@
             </div>
         </div>
         </div>
+            <?php include "./reviews.php" ?>
     </main>
 
     <footer>
+        <?php include "./footer.php" ?>
 
     </footer>
 
