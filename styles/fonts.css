@@ -48,9 +48,5 @@
 }
 
 .scrolls{
-    border: 2px solid red;
-}
-
-.scrolls::-webkit-scrollbar{
-    display: none;
+    border: none;
 }

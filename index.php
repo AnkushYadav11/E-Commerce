@@ -109,6 +109,9 @@
             </div>
         </div>
         </div>
+        <div>
+            <?php include "./reviews.php" ?>
+        </div>
     </main>
 
     <footer>
