@@ -1,0 +1,15 @@
+.star-rating input { position: absolute; opacity: 0; z-index: 1; }
+.star-rating label { 
+  display: flex; align-items: center; cursor: pointer; color: #ddd; 
+}
+.star-rating input:checked + label svg { color: #ffd700; }
+.star-rating input:hover + label svg { color: #ffed4a; }
+.star-rating label svg { width: 24px; height: 24px; margin-right: 5px; }
+.star-rating input:focus + label { outline: 2px solid #007cba; }
+
+.star-rating label::before {
+  content: ''; display: block; width: 24px; height: 24px;
+  background: #ddd; clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  margin-right: 5px;
+}
+input:checked + label::before { background: #ffd700; }

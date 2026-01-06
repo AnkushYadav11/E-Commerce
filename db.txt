@@ -1,0 +1,47 @@
+Database name Ecommerce
+
+tables in Database
+1. user
+2. products
+3. reviews
+4. categories
+
+1. user
+    create table user(
+        id int primary key auto_increment, 
+        uname varchar(255), 
+        email varchar(255), 
+        phone int, 
+        password varchar(255)
+    );
+
+3. Reviews 
+    create table reviews(
+        id int primary key auto_increment,
+        u_id int foreign key reference user(id),
+        rating int,
+        file varchar(255),
+        message varchar(255),
+        name varchar(255),
+        email varchar(255)
+    );
+
+2. products
+    create table products(
+        id int primary key auto_increment,
+        u_id int foreign key reference user(id),
+        p_name varchar(255),
+        p_price decimal(10,2),
+        p_details varchar(255),
+        p_reting int,
+        numberofitems int,
+        description varchar(255),
+        categories varchar(255)
+    );
+
+4. Categories
+    create table Categories(
+        id int primary key auto_increment,
+        p_id int foreign key reference products(id),
+        categories varchar(255),
+    );

@@ -30,13 +30,12 @@
             <a class="text-[16px] outfit-light" href="./index.php">HOME</a>
             <a class="text-[16px] outfit-light" href="./about.php"> ABOUT </a>
             <a class="text-[16px] outfit-light" href="./shop.php">SHOP</a>
-            <a class="text-[16px] outfit-light" href="#">BLOGS</a>
-            <a class="text-[16px] outfit-light" href="#">PAGES</a>
-            <a class="text-[16px] outfit-light" href="#">CONTACT</a>
+            <a class="text-[16px] outfit-light" href="./blogs.php">BLOGS</a>
+            <a class="text-[16px] outfit-light" href="./contact.php">CONTACT</a>
         </div>
         <div class="flex [&>*]:size-5 gap-5">
             <img src="./images/search.svg" alt="Search">
-            <img src="./images/profile.svg" alt="Profile">
+            <a href="./logout.php"><img src="./images/profile.svg" alt="Profile" class="hover:shadow hover:shadow-1xl"></a>
             <img src="./images/favourite.svg" alt="favourite">
             <img src="./images/cart.svg" alt="Cart">
         </div>
