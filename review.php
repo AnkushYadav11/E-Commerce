@@ -18,7 +18,7 @@
             <div>
                 <p>Your rating*</p>
                 <form method="POST" enctype="multipart/form-data">
-                    
+
                 </form>
             </div>
         </div>

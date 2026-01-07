@@ -51,17 +51,19 @@
             <form method="POST">
                 <div style="margin-top:36px;">
                     <span class="flex gap-[20px]" style="margin-bottom:20px;">
-                        <input type="text" name="name" placeholder="Your full name *" style="padding-top:39px; padding-bottom:39px;" class="grow border border-[#E3E3E3] rounded-xl">
-                        <input type="email" name="email" placeholder="Write your email here *" style="padding-top:39px; padding-bottom:39px;" class="grow border border-[#E3E3E3] rounded-xl">
+                        <input type="text" name="name" placeholder="Your full name *" style="padding:39px;" class="grow border border-[#E3E3E3] rounded-xl">
+                        <input type="email" name="email" placeholder="Write your email here *" style="padding:39px;" class="grow border border-[#E3E3E3] rounded-xl">
                     </span>
                     <span class="flex flex-col gap-[20px]">
-                        <input type="number" placeholder="Phone Number" name="phone" id="" style="padding-top:39px; padding-bottom:39px;" class="grow border border-[#E3E3E3] rounded-xl">
-                        <input type="text" placeholder="Write your subject here" name="subject" id="" style="padding-top:39px; padding-bottom:39px;" class="grow border border-[#E3E3E3] rounded-xl">
-                        <input type="text" placeholder="Write your message here *" name="message" id="message" style="padding-top:39px; padding-bottom:39px;" class="grow border border-[#E3E3E3] rounded-xl">
+                        <input type="number" placeholder="Phone Number" name="phone" id="" style="padding:39px;" class="grow border border-[#E3E3E3] rounded-xl">
+                        <input type="text" placeholder="Write your subject here" name="subject" id="" style="padding:39px;" class="grow border border-[#E3E3E3] rounded-xl">
+                        <input type="text" placeholder="Write your message here *" name="message" id="message" style="padding:39px;" class="grow border border-[#E3E3E3] rounded-xl">
                     </span>
                 </div>
                 <button class="bg-[#FF6543] text-[#FFFFFF] h-[56px] w-[149px] rounded-4xl hover:bg-[#FF3E14] hover:rounded-3xl" style="margin-top:36px" type="submit">Submit</button>
             </form>
+
+            
         </div>
 
     </div>
